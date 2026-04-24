@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "MOVO Rider",
+    "slug": "movo-rider-android",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "ge.movo.rider",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "extra": {
+      "apiUrl": "http://10.0.2.2:8000/api",
+      "mapProvider": "mapbox_then_yandex"
+    }
+  }
+}
