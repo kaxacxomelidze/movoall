@@ -1,0 +1,28 @@
+{
+  "name": "movo-rider-android",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "expo": "latest",
+    "expo-location": "latest",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-gesture-handler": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
