@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+build/
+android/
+ios/
+*.keystore
+*.jks
+.env
+.env.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+backend/laravel-api/vendor/
+backend/laravel-api/storage/*.key
+backend/laravel-api/database/database.sqlite
